@@ -13,8 +13,9 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    <b-alert variant="success" show="">
+                        You are logged in!
+                    </b-alert>
                 </div>
             </div>
         </div>
